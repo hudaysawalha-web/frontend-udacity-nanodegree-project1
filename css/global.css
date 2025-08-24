@@ -70,12 +70,17 @@ header {
 nav ul {
     display: flex;
     gap: 2rem;
+    color: #f8e289f7;
 }
 
 nav a:hover {
     color: #ffcc00;
 }
 
+nav ul li a.active {
+    font-weight: bold;
+    color: #ffcc00;
+}
 
 button {
     padding: 1rem 1.8rem;
