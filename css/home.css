@@ -1,0 +1,121 @@
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-image: url('../images/rainbow-vortex.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    margin-right: 2rem;
+    position: relative;
+    align-items: flex-end;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.services {
+    padding: 1rem 10rem;
+}
+
+.services h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #036;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+.card h3 {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0;
+    min-height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.card p {
+    padding: 1rem;
+    text-align: left;
+    margin: 0;
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+}
+
+/* About Section */
+.about {
+    padding: 1rem 10rem;
+}
+
+.about-content {
+    position: relative;
+    overflow: hidden; 
+}
+
+.about-image {
+    float: left; 
+    width: 40%; 
+    max-width: 400px; 
+    margin: 0 1rem 0 0;
+    shape-outside: margin-box; 
+}
+
+.about-image img {
+    width: 100%;
+    height: auto; 
+    object-fit: contain; 
+}
+
+.about-text {
+    position: relative;
+}
+
+.about-text h3 {
+    margin-top: 0; 
+}
