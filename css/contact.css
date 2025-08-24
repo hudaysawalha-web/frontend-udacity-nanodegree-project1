@@ -1,0 +1,116 @@
+.contact-hero {
+    height: 50vh;
+    background-image: url('../images/rainbow-vortex.png');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    padding: 1.5rem;
+    font-size: 0.95rem;
+}
+.contact-info h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    
+    font-weight: 600;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    padding: 1.5rem;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+/* Form Styling */
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:valid,
+.contact-form textarea:valid {
+    border-color: #008035;
+}
+
+.contact-form input:invalid,
+.contact-form textarea:invalid {
+    border-color: #a11202;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #2ecc71;
+    border: 1px solid #27ae60;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+.contact-form button[type="reset"] {
+    background-color: #e74c3c;
+    border: 1px solid #c0392b;
+}
+
+.contact-form button[type="reset"]:hover {
+    background-color: #c0392b;
+}
