@@ -1,12 +1,15 @@
 .contact-hero {
     height: 50vh;
     background-image: url('../images/rainbow-vortex.png');
+    background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
 }
 
 main {
